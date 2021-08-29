@@ -1,0 +1,55 @@
+.content {
+  max-width: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px
+}
+
+.contrast {
+  background-color: #1c1c21;
+  border-radius: 10px;
+}
+
+.main-block {
+  overflow: auto;
+  max-height: 464px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  flex-basis: 464px;
+}
+
+.bun-element {
+  min-height: 80px;
+}
+
+.info {
+  width: 60%;
+  align-self: center;
+  text-align: center;
+}
+
+.main-element {
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Подмена стиля компонента из библиотеки, т.к. при коротких названиях ингридиента текст не выравнивается по ширине*/
+.main-element :global(.constructor-element) {
+  flex-basis: 488px;
+}
+
+.main-element :global(.constructor-element__text) {
+  flex-basis: 90%;
+}
+
+.main-block::-webkit-scrollbar-thumb {
+  height: 292px;
+}
+

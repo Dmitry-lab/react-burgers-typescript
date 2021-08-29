@@ -1,0 +1,34 @@
+.link-box {
+  height: 56px;
+  border-radius: 40px;
+  color: #F2F2F3;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s ease;
+}
+
+.link-box svg {
+  fill: var(--text-inactive-color)
+}
+
+.link-box span {
+  color: var(--text-inactive-color)
+}
+
+.link-box:last-child {
+  margin-right: 0;
+}
+
+.link-box:hover{
+  filter: brightness(1.5);
+}
+
+.active svg {
+  fill: var(--text-primary-color);
+}
+
+.active span {
+  color: var(--text-primary-color)
+}

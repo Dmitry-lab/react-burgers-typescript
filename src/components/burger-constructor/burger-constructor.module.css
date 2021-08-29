@@ -1,0 +1,23 @@
+.content {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 600px;
+}
+
+.bottom-block {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sum-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom-block svg {
+  width: 33px;
+  height: 33px;
+}

@@ -1,0 +1,29 @@
+.content {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  font-family: 'Jet Brains Mono';
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  text-decoration: none;
+  color: var(--colors-interface-accent);
+  transition: opacity .4s ease;
+}
+
+.link:hover {
+  opacity: .6;
+}
+
+:global(.input__container) {
+  margin-bottom: 24px;
+}
+
+:global(.input_size_default) {
+  width: 480px;
+}

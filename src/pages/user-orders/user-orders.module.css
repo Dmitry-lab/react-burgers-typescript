@@ -1,0 +1,12 @@
+.content {
+  max-width: 1280px;
+  min-height: 850px;
+  margin: 40px auto;
+  display: flex;
+  gap: 60px;
+}
+
+.nav {
+  margin-top: 80px;
+  flex-basis: 320px;
+}

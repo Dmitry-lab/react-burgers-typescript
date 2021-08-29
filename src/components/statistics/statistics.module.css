@@ -1,0 +1,17 @@
+.content {
+  flex-basis: 580px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.orders {
+  display: flex;
+  justify-content: space-between;
+}
+
+.glow {
+  text-shadow: 0 4px 32px rgba(51, 51, 255, .5),
+    0 0 8px rgba(51, 51, 255, .25),
+    0 0 16px rgba(51, 51, 255, .25);
+}

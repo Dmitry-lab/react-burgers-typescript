@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  flex-basis: 272px;
+  max-width: 272px;
+  flex-direction: column;
+}
+
+.columns {
+  display: flex;
+  overflow: auto;
+}
+
+.numbers {
+  height: 152px;
+  list-style: none;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+
+div::-webkit-scrollbar-thumb {
+  height: 70px;
+  width: 70px;
+}
+
+div::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+div::-webkit-scrollbar-corner {
+  color: var(--background-element);
+}

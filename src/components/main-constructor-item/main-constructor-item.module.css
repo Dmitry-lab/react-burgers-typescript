@@ -1,0 +1,21 @@
+.main-element {
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  gap: 8px;
+}
+
+.ishovered {
+  opacity: 0;
+}
+
+/* Подмена стиля компонента из библиотеки, т.к. при коротких названиях ингридиента текст не выравнивается по ширине*/
+.main-element :global(.constructor-element) {
+  flex-basis: 488px;
+}
+
+.main-element :global(.constructor-element__text) {
+  flex-basis: 90%;
+}

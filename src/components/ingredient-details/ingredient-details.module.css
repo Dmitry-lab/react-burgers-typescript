@@ -1,0 +1,21 @@
+.ingredient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nutrients {
+  display: flex;
+  gap: 20px;
+}
+
+.nutrient {
+  flex-basis: fit-content;
+  min-height: 24px;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+

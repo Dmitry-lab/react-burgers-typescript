@@ -1,0 +1,16 @@
+.nav-block {
+  max-width: 1280px;
+  flex-basis: 1280px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+}
+
+.left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+

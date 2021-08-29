@@ -1,0 +1,36 @@
+.modal {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 40px;
+  background: var(--background);
+  position: fixed;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.header {
+  min-height: 64px;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+  background-color: var(--background);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: opacity 0.4s ease;
+  outline: none;
+}
+
+.close-button:hover {
+  opacity: .7;
+}

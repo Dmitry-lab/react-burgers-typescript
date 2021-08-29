@@ -1,0 +1,14 @@
+.list {
+  max-height: 790px;
+  flex-basis: 592px;
+  flex-grow: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 20px 60px 0 0;
+}
+
+.list::-webkit-scrollbar-thumb {
+  height: 492px;
+}
