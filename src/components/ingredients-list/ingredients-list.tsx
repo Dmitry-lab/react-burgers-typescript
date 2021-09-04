@@ -89,7 +89,7 @@ function IngredientsList() {
   }, [scrollTarget])
 
   return (
-    <div ref={listsRef} className={listSyles.types} onScroll={scrollHandler}>
+    <div ref={listsRef} className={listSyles.types} onScroll={scrollHandler} data-test='ingredients-list'>
       <section className='mb-10'>
         <h2 ref={bunsRef} className='text text_type_main-medium mb-6'>Булки</h2>
         <div className={`${listSyles.list}`}>

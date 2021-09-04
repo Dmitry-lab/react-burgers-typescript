@@ -35,7 +35,7 @@ const ConstructorList:FC = () => {
     : `${styles.content} mt-5`
 
   return (
-    <div ref={dropTarget} className={contentStyle}>
+    <div ref={dropTarget} className={contentStyle} data-test='constructor-list'>
       <div className={`${styles['bun-element']} ml-10 pl-2 mr-4`}>
         {bun && <ConstructorElement
           type="top"

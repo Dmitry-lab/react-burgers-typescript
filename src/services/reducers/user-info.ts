@@ -10,7 +10,7 @@ type TUserInfoState = {
   requestError: string;
 }
 
-const initialState: TUserInfoState = {
+export const initialState: TUserInfoState = {
   info: {
     name: '',
     email: ''

@@ -26,7 +26,7 @@ type TConstructorState = {
   scrollTarget: TTabNames;
 }
 
-const initialState: TConstructorState = {
+export const initialState: TConstructorState = {
   ingredients: [],
   addedIngredients: [],
   viewedIngredient: null,
