@@ -13,7 +13,7 @@
 
 ### Технологии
 
-- JavaScript
+- TypeScript
 - React
 - Redux
 - REST API
